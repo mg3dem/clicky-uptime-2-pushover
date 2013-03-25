@@ -1,7 +1,7 @@
 clicky-uptime-2-pushover
 ========================
 
-A small node.js application to send uptime alerts from **[Clicky][]** analytics as a mobile notification using [Pushover][] service.
+A small node.js application to send uptime alerts from **[Clicky][]** analytics as a mobile notification using [Pushover][] service. Built on top of **[Express][]**, **[node-pushover][]** and **[XDate][]**
 
 Running
 -------
@@ -12,17 +12,17 @@ You need **node.js** and **npm** on your system.
 npm install
 node app.js
 ```
+NOTE: You need a public IP/URL to be reached from **[Clicky][]**
 
 Using
 -----
 
 The latest version is deployed on **Appfog** and can be used by anyone using the following url as webhook URL:
 
-http://clicky-uptime-2-pushover.aws.af.cm/<user-key>
+http://clicky-uptime-2-pushover.aws.af.cm/&lt;user-key>
 
-Replacing the <user-key> with the user key from **Pushover**
+Replacing &lt;user-key> with the user key from **Pushover**
 
-NOTE: You need a public IP/URL to be reached from **[Clicky][]**
 
 License
 -------
@@ -48,3 +48,6 @@ THE SOFTWARE.
 
 [Clicky]: https://clicky.com/
 [Pushover]:https://pushover.net/
+[Express]:http://expressjs.com/
+[node-pushover]: https://github.com/qbit/node-pushover
+[XDate]: http://arshaw.com/xdate/
