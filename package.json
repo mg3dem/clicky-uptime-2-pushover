@@ -1,0 +1,15 @@
+{
+  "name": "clicky-uptime-2-pushover",
+  "description": "A notepad written with Node",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Miguel Gallardo <miguel@tuproximotrabajo.com>",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "pushover-notifications": "0.x",
+    "xdate": "0.x"
+  }
+}
